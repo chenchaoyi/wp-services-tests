@@ -14,14 +14,13 @@ And that's it, all setup is done.
 
 ## Usage ##
 
-* Update to your own WordPress.com user account credential in config/default.json
+* Update to your own WordPress.com user account credential in `config/default.json`
 * Run the following command:
 ```bash
 $ npm run purge_posts
 ```
 
-You can also choose to pass in your user credential from command line
-through environment variable `NODE_CONFIG` (no config/default.json update is needed this way):
+* You can also choose to pass in your user credential from command line through environment variable `NODE_CONFIG` (no config/default.json update is needed this way):
 ```bash
 $ NODE_CONFIG='{"user":{"name": "yourusername", "password": "yourpassword"}}' npm run purge_posts
 ```
