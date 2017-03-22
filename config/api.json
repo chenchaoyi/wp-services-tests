@@ -1,0 +1,42 @@
+{
+  "wp": {
+    "oauth2": {
+      "authorize": {
+        "schema": "https",
+        "method": ["GET"]
+      },
+      "token-info": {
+        "schema": "https",
+        "method": ["GET"]
+      },
+      "token": {
+        "schema": "https",
+        "method": ["POST"]
+      }
+    },
+    "me": {
+      "schema": "https",
+      "method": ["GET"],
+      "sites": {
+        "schema": "https",
+        "method": ["GET"]
+      }
+    },
+    "sites": {
+      "${site}": {
+        "schema": "https",
+        "method": ["GET"],
+        "posts": {
+          "schema": "https",
+          "method": ["GET"],
+          "${post_ID}": {
+            "delete": {
+              "schema": "https",
+              "method": ["POST"]
+            }
+          }
+        }
+      }
+    }
+  }
+}

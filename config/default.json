@@ -1,0 +1,18 @@
+{
+  "env": "production",
+  "proxy": null,
+  "server": {
+    "host": "public-api.wordpress.com/rest/v1.1",
+    "oauth": "https://public-api.wordpress.com",
+    "login": "https://wordpress.com/wp-login.php"
+  },
+  "application": {
+    "client_id": "52547",
+    "redirect_uri": "http://www.ccy.com",
+    "client_secret": "EJzdpNRbQ63gtLKbNdhQMTezgGgyCkL5ebbDvbhsUe8JruOztKbz6C2dCrG3DAIK"
+  },
+  "user": {
+    "name": "ccy77",
+    "password": "yourpassword"
+  }
+}

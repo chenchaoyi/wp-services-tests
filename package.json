@@ -1,0 +1,25 @@
+{
+  "name": "wp-util",
+  "version": "0.0.1",
+  "author": "Chaoyi Chen <ccy.chenchaoyi@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "wordpress",
+    "REST",
+    "bluecat"
+  ],
+  "scripts": {
+    "purge_posts": "./node_modules/.bin/mocha  test/wp/delete_posts.js"
+  },
+  "dependencies": {
+    "bluecat": "^1.1.4",
+    "chai": "^3.5.0",
+    "config": "^1.25.1",
+    "mocha": "^3.2.0",
+    "querystring": "^0.2.0",
+    "testarmada-magellan": "^8.8.4",
+    "testarmada-magellan-mocha-plugin2": "^6.0.2",
+    "urlencode": "^1.1.0"
+  }
+}

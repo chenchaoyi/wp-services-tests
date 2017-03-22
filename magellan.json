@@ -1,0 +1,6 @@
+{
+  "mocha_tests": [
+    "test/wp"
+  ],
+  "framework": "testarmada-magellan-mocha-plugin2"
+}
